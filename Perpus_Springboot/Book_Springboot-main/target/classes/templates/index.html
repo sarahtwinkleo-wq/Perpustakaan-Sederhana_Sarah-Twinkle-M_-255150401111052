@@ -16,6 +16,12 @@
 <p th:if="${sukses}" th:text="${sukses}" style="color:green"></p>
 <p th:if="${error}" th:text="${error}" style="color:red"></p>
 
+<div style="margin-bottom: 20px;">
+    <a th:href="@{/pinjam}">
+        <button type="button">Peminjaman Buku</button>
+    </a>
+</div>
+
 <div class="kolom">
     <section>
         <h2>Buku</h2>
